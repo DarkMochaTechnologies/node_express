@@ -1,26 +1,17 @@
 {
-  "name": "api_test",
-  "version": "1.0.0",
-  "description": "test module for base api with front end",
-  "main": "index.js",
+  "name": "test_express",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:VirtuoC/node_express.git"
-  },
-  "keywords": [
-    "node"
-  ],
-  "author": "VirtuoC",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/VirtuoC/node_express/issues"
-  },
-  "homepage": "https://github.com/VirtuoC/node_express",
   "dependencies": {
-    "express": "^4.13.3",
-		"jade": "0.*"
+    "body-parser": "~1.13.2",
+    "cookie-parser": "~1.3.5",
+    "debug": "~2.2.0",
+    "express": "~4.13.1",
+    "jade": "~1.11.0",
+    "morgan": "~1.6.1",
+    "serve-favicon": "~2.3.0"
   }
 }
